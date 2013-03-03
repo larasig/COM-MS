@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComScratch", "ComScratch\ComScratch.vcxproj", "{7129E8A7-31EF-4249-A3B1-251B047C1438}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MsgBox", "MsgBox\MsgBox.vcxproj", "{6CCA9888-CE3C-42E5-9DEF-6DED5031947F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestClient", "TestClient\TestClient.vcxproj", "{1B2C8B8A-9D88-4B68-B81A-D97E72B31145}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CCA9888-CE3C-42E5-9DEF-6DED5031947F} = {6CCA9888-CE3C-42E5-9DEF-6DED5031947F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D96DC1A6-7E25-48A8-A7CE-2490A19B690F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LunarCalendar", "LunarCalendar\LunarCalendar.vcxproj", "{1E5A2923-1DB3-40DE-A3EE-CF1353075B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7129E8A7-31EF-4249-A3B1-251B047C1438}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7129E8A7-31EF-4249-A3B1-251B047C1438}.Debug|Win32.Build.0 = Debug|Win32
+		{7129E8A7-31EF-4249-A3B1-251B047C1438}.Release|Win32.ActiveCfg = Release|Win32
+		{7129E8A7-31EF-4249-A3B1-251B047C1438}.Release|Win32.Build.0 = Release|Win32
+		{6CCA9888-CE3C-42E5-9DEF-6DED5031947F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CCA9888-CE3C-42E5-9DEF-6DED5031947F}.Debug|Win32.Build.0 = Debug|Win32
+		{6CCA9888-CE3C-42E5-9DEF-6DED5031947F}.Release|Win32.ActiveCfg = Release|Win32
+		{6CCA9888-CE3C-42E5-9DEF-6DED5031947F}.Release|Win32.Build.0 = Release|Win32
+		{1B2C8B8A-9D88-4B68-B81A-D97E72B31145}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B2C8B8A-9D88-4B68-B81A-D97E72B31145}.Debug|Win32.Build.0 = Debug|Win32
+		{1B2C8B8A-9D88-4B68-B81A-D97E72B31145}.Release|Win32.ActiveCfg = Release|Win32
+		{1B2C8B8A-9D88-4B68-B81A-D97E72B31145}.Release|Win32.Build.0 = Release|Win32
+		{1E5A2923-1DB3-40DE-A3EE-CF1353075B4C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E5A2923-1DB3-40DE-A3EE-CF1353075B4C}.Debug|Win32.Build.0 = Debug|Win32
+		{1E5A2923-1DB3-40DE-A3EE-CF1353075B4C}.Release|Win32.ActiveCfg = Release|Win32
+		{1E5A2923-1DB3-40DE-A3EE-CF1353075B4C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
